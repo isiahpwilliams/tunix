@@ -12,10 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-"""TVCache sandbox backed by the terminal-bench container manager.
-
-Requires the optional `tvclient` and `httpx` packages.
-"""
+"""TVCache sandbox backed by the terminal-bench container manager."""
 
 import asyncio
 import re

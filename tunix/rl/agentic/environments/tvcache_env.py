@@ -12,10 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-"""Terminal environment whose tool calls go through a TVCache server.
-
-Requires the optional `tvclient` and `httpx` packages.
-"""
+"""Terminal environment whose tool calls go through a TVCache server."""
 
 import asyncio
 import concurrent.futures

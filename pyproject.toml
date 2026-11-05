@@ -49,6 +49,8 @@ dependencies = [
   "tqdm",
   "transformers!=4.57.2", # Issue: https://github.com/google/tunix/pull/795
   "tenacity",
+  "httpx",  # TVCache container manager client
+  "tvclient @ git+https://github.com/abhivijay96/tvclient.git@45d8c7d76dffca8d01a47315d14a82c4af9405f0",  # Not on PyPI; pinned for reward parity
 ]
 
 [project.optional-dependencies]
